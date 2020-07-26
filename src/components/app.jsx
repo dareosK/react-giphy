@@ -21,7 +21,7 @@ class App extends Component { // creates the view for the app
     giphy('LXDTRWUITSEkVccvdmwScrwjmjxUXiZY').search({
       q: query,
       rating: 'g',
-      limit: 10
+      limit: 30
     }, (err, result) => { // ! Doc uses function(err, result), however
     this.setState({       // 'this' would refer to the function if not turned into arrow function
       gifs: result.data   // and we need 'this' to refer to the state !
