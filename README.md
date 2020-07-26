@@ -1,13 +1,11 @@
-# react-boilerplate
+# react-giphy app
 
-Simple react starter with the following config:
+An app that calls the giphy-api, in order to:
+1. make a search query
+2. fetch a result of 30 gifs, based on the query
+3. display (on the left) the selected gif from the gif list on the right.
 
-- React, ReactDOM
-- Webpack 4
-- Babel with es2015 and react presets
-- Bootstrap (css only, loaded from a cdn in `index.html`)
-- work with `.js` or `.jsx` files
-- main `application.scss` stylesheet is imported in `index.js` as a module to enjoy hot reloading
+built with ReactJS
 
 ## Scripts
 
